@@ -27,7 +27,7 @@
     "fix:style": "npx stylelint ./src/ --fix",
     "start:docs": "start-storybook -p 6006 -s public",
     "build:docs": "build-storybook -s public",
-    "prepare": "cd.. && husky install slemay_ntremblay/.husky"
+    "prepare": "husky install slemay_ntremblay/.husky"
   },
   "eslintConfig": {
     "extends": "react-app"
