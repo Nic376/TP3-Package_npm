@@ -17,21 +17,16 @@ jobs:
       - run: git config --global user.name 'Nic'
       - run: git config --global user.email 'Nick376@hotmail.fr'
       - run: npm version patch -m "[RELEASE] %s"
-      
-  build-publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: yarn install
       - run: yarn test
-      - run: yarn publish --access public
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
+      
       
 
      
