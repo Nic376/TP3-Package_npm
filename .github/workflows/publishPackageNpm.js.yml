@@ -22,6 +22,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         registry-url: https://registry.npmjs.org/
     - run: yarn install
-    - run: npm publish --access public
+    - run: yarn publish
       env:
-        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        NODE_AUTH_TOKEN: ${{secrets.PUBLISHTONPM_SECRET}}
