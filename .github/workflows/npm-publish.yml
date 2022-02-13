@@ -1,8 +1,10 @@
 name: Publish to NPM
 
 on:
-  release:
-    types: [created]
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
 
 jobs:
   build:
