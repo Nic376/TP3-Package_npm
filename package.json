@@ -1,6 +1,6 @@
 {
   "name": "slemay_ntremblay",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.7.1",
