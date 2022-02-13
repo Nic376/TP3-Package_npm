@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
-      - run: git config --global user.name 'Nic376'
+      - run: git config --global user.name 'Nic'
       - run: git config --global user.email 'Nick376@hotmail.fr'
       - run: npm version patch -m "[RELEASE] %s"
       - run: git push
