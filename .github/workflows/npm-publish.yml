@@ -7,16 +7,6 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - run: yarn install
-      - run: yarn test
-      
   version:
     runs-on: ubuntu-latest
     if: "!startsWith(github.event.head_commit.message, '[RELEASE]')"
@@ -27,10 +17,8 @@ jobs:
       - run: git config --global user.name 'Nic'
       - run: git config --global user.email 'Nick376@hotmail.fr'
       - run: npm version patch -m "[RELEASE] %s"
-      - run: git push
       
-  publish-npm:
-    needs: build
+  build-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -39,6 +27,11 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: yarn install
+      - run: yarn test
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+      
+
+     
