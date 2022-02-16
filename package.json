@@ -1,12 +1,8 @@
 {
   "name": "slemay_ntremblay",
-<<<<<<< HEAD
-  "version": "1.1.11",
-=======
   "version": "1.0.0",
   "description": "TP1 components for stories",
   "license": "MIT",
->>>>>>> npm
   "private": false,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -28,11 +24,7 @@
     "fix:style": "npx stylelint ./src/ --fix",
     "start:docs": "start-storybook -p 6006 -s public",
     "build:docs": "build-storybook -s public",
-<<<<<<< HEAD
-    "prepare": "husky install slemay_ntremblay/.husky"
-=======
     "prepare": "husky install"
->>>>>>> npm
   },
   "eslintConfig": {
     "extends": "react-app"
