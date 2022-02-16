@@ -1,19 +1,20 @@
 {
   "name": "slemay_ntremblay",
+<<<<<<< HEAD
   "version": "1.1.11",
+=======
+  "version": "1.0.0",
+  "description": "TP1 components for stories",
+  "license": "MIT",
+>>>>>>> npm
   "private": false,
   "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/styles": "^4.11.4",
-    "@mui/icons-material": "^5.2.5",
-    "@mui/material": "^5.2.6",
-    "@mui/styled-engine": "^5.2.6",
-    "husky": "^7.0.4",
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.18.2",
+    "moment": "^2.29.1",
     "prop-types": "^15.8.0",
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,7 +28,11 @@
     "fix:style": "npx stylelint ./src/ --fix",
     "start:docs": "start-storybook -p 6006 -s public",
     "build:docs": "build-storybook -s public",
+<<<<<<< HEAD
     "prepare": "husky install slemay_ntremblay/.husky"
+=======
+    "prepare": "husky install"
+>>>>>>> npm
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -60,12 +65,12 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
-    "@storybook/addon-actions": "^6.4.9",
-    "@storybook/addon-essentials": "^6.4.9",
-    "@storybook/addon-links": "^6.4.9",
-    "@storybook/node-logger": "^6.4.9",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/node-logger": "^6.3.8",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.4.9",
+    "@storybook/react": "^6.3.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/react-hooks": "^7.0.2",
@@ -83,6 +88,7 @@
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "npm-run-all": "^4.1.5",
     "postcss-preset-env": "^6.7.0",
@@ -98,7 +104,7 @@
     "rollup-plugin-postcss": "^3.1.8",
     "rollup-plugin-stylelint": "^1.0.0",
     "rollup-plugin-terser": "^7.0.2",
-    "storybook-addon-material-ui": "^0.9.0-alpha.24",
+    "storybook-addon-customize-antd-theme": "^1.1.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0"
@@ -106,6 +112,7 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
+<<<<<<< HEAD
   },
   "description": "[![Build Status](https://travis-ci.com/morewings/cra-template-npm-library.svg?branch=master)](https://travis-ci.com/morewings/cra-template-npm-library)\r [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=morewings/cra-template-npm-library)](https://dependabot.com)\r [![dependencies Status](https://david-dm.org/morewings/cra-template-npm-library/status.svg)](https://david-dm.org/morewings/cra-template-npm-library)\r [![Netlify Status](https://api.netlify.com/api/v1/badges/7448a6f6-8be5-4d26-b886-f59db21ebb4e/deploy-status)](https://app.netlify.com/sites/cra-template-npm-library/deploys)\r [![npm version](https://badge.fury.io/js/cra-template-npm-library.svg)](https://www.npmjs.com/package/cra-template-npm-library)\r [![npm](https://img.shields.io/npm/dm/cra-template-npm-library)](https://www.npmjs.com/package/cra-template-npm-library)",
   "directories": {
@@ -117,4 +124,7 @@
   },
   "author": "",
   "license": "(MIT)"
+=======
+  }
+>>>>>>> npm
 }

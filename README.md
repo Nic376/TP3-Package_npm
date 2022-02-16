@@ -1,8 +1,3 @@
-## Lien vers de la librairie NPM
-https://www.npmjs.com/package/slemay_ntremblay
-
-## Lien vers URL
-http://storybook.ntremblay.devwebgarneau.com
 ## Utilisation des components
 ### Alert Message 
 Entrer le message de l'alerte dans la props "message".
