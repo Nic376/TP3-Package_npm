@@ -1,5 +1,3 @@
-
-
 ## Lien vers de la librairie NPM
 https://www.npmjs.com/package/slemay_ntremblay
 
