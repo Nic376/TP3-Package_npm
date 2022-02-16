@@ -1,10 +1,10 @@
 import React from 'react';
-import {Buttons} from 'lib';
+import {Counter} from 'lib';
 import classes from './App.module.css';
 
 const App = () => (
   <div className={classes.container}>
-    <Buttons size="small" type="primary"/>
+    <Counter size="small" type="primary" />
   </div>
 );
 

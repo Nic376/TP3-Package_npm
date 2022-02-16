@@ -2,8 +2,26 @@
 
 exports[`environment > App renders without crashing 1`] = `
 <DocumentFragment>
-  <div class="container">
-    <h1> SNAPSHOT </h1>
+  <div
+    class="container"
+  >
+    <div>
+      <h2>
+        Counter
+      </h2>
+      <button
+        class="button"
+        type="button"
+      >
+        Increment by one
+      </button>
+      <div>
+        Total value: 
+        <strong>
+          0
+        </strong>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
