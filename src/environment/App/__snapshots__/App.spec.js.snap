@@ -5,8 +5,12 @@ exports[`environment > App renders without crashing 1`] = `
   <div
     class="container"
   >
-    <div>
-      <h2>
+    <div
+      class="counter"
+    >
+      <h2
+        class="header"
+      >
         Counter
       </h2>
       <button
