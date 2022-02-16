@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`environment > App renders without crashing 1`] = `
+<DocumentFragment>
+  <div class="container">
+    <h1> SNAPSHOT </h1>
+  </div>
+</DocumentFragment>
+`;
