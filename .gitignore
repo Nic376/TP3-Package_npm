@@ -31,3 +31,12 @@ template.json
 
 # documentation
 storybook-static
+/.husky
+/.storybook
+/docs
+/public
+/.eslintrc
+/.lintstagedrc
+/.prettierrc
+/.stylelintrc
+/netlify.toml
